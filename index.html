@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     
+    <!--Bootstrap CDN-->  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      
+    <!-- Google fonts - Montserrat for headings, Cardo for copy-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
+
+      
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/custom.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/styling.css" id="theme-stylesheet">  
+      
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">  
+      
+    </head>
+    
+    
+    <body data-spy="scroll" data-target="#navigation" data-offset="120">
+        
+    <!-- PAGE PRELOADER -->
+    <div id="page-loader"><span class="page-loader-gif"></span></div>    
+     
+        
+        
+    <div class="container" id="pre">
+        
+        <div class="row wrapper">
+            <button type="button"   class="btn btn-primary">Click here to get your facebook details</button>
+        </div>    
+        
+      </div>     
+        
+        
+    <div class="main">     
+    <!-- intro-->
+    <section id="intro" style="background-image: url('img/image.jpg');" class="intro img-responsive">      
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-12 padding-small">
+              
+              <h2 >Welcome to your Profile Page</h1>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end-->          
+        
+        
+        <!-- navbar-->
+    <header class="header">
+        <div role="navigation" class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-btn btn-sm navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#intro"><img src="img/portfolio.png" alt=""></a>
+            </div>
+            <div id="navigation" class="collapse navbar-collapse navbar-right">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#intro" >Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+    <!--navbar end-->
+        
+        <br>
+        <!-- about-->    
+        <div class="container" id="profile" >
+            <ul class="nav nav-tabs nav-justified " >
+                <li class="active"><a href="#about"><b>About You</b></a></li>
+                <li><a href="#feed"><b>Your Feed</b></a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="about" class="tab-pane fade in active">
+                    <h3>Your Profile</h3>
+                    <section class="container">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openDetail(event, 'Contact')" id="defaultOpen">Contact and Basic Info</button>
+                        <button class="tablinks" onclick="openDetail(event, 'Work')">Work and Education</button>
+                        <button class="tablinks" onclick="openDetail(event, 'Places')">Places You've Lived</button>
+                        <button class="tablinks" onclick="openDetail(event, 'Family')">Family and Relationships</button>
+                        <button class="tablinks" onclick="openDetail(event, 'AboutYou')">Details About You</button>
+                        
+                    </div>
+
+                    <div id="Contact" class="tabcontent">
+                        <h3>Basic Info</h3>
+                        
+                        <br>
+                        <p>Firstname : <span id="myFirstName"></span></p>
+                        <p>Lastname : <span id="myLastName"></span></p>
+                        <p>Birthday : <span id="myBirthday"></span></p>
+                        <p>Gender : <span id="myGender"></span></p>
+                        <p>Languages : <span id="myLanguage"></span></p>
+                        <p>FB URL : <span id="myProfileId"></span></p>
+                    </div>
+
+                    <div id="Places" class="tabcontent">
+                        <h3>Places</h3>
+                        <br>
+                        <p>Current Place : <span id="myCurrentTown"></span></p>
+                        <p>Home Town : <span id="myHomeTown"></span></p>
+                    </div>
+
+                    <div id="Work" class="tabcontent">
+                        <h3>Works</h3>
+                        <br>
+                            <p>Work : <span id="myWork"></span></p>
+                            <p>Education : <span id="myEducation"></span></p>
+                    </div>
+                        
+                    <div id="Family" class="tabcontent">
+                        <h3>Family</h3>
+                        <br>
+                        <p>Relationship Status : <span id="myRelation"></span></p>
+                        <p>Family members : <span id="myFamily"></span></p>
+                    </div>
+                        
+                    <div id="AboutYou" class="tabcontent">
+                        <h3>About</h3>
+                        <br>
+                        <p>Quotes : <span id="myAbout"></span></p>
+                        <p>Email : <span id="myEmail"></span></p>
+                    </div>    
+                        
+                    </section>    
+                    
+      
+                </div>
+                <div id="feed" class="tab-pane fade">
+                    <h3>Your Feed</h3>
+                     <section class="container">
+                        <div class="row">
+                            
+                            <div class="col-md-12 col-sm-12 border ">
+                                
+                            <div class="feed1">
+                            <a id="post1"></a>
+                            <a class="photoPost1"></a>
+                            </div>
+                            </div>
+                            
+                            <br><br><br><br>
+                            
+                            <div class="col-md-12 col-sm-12 border">
+                                
+                            <div class="feed2">
+                            <a id="post2"></a>
+                            <a class="photoPost2"></a>
+                            </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!---about end-->    
+      
+        
+        
+    <!-- Footer-->    
+    <footer style="background-color: #111;" class="section-inverse">
+      <div class="container"> 
+        <div class="row copyright">
+          <div class="col-md-6">
+            <p>&copy;2017 My Portfolio</p>
+          </div>
+          <div class="col-md-6">
+            <p class="credit">Template by Vikash Anand</p>
+          </div>
+        </div>
+      </div>
+    </footer>    
+    <!-- Footer end-->  
+          
+    </div>    
+        
+        
+    <!-- Javascript files-->
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+    <!-- Bootstrap CDN-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+    <!-- Pageloader JS-->
+    <script src="js/pageloader.js"></script>      
+    <!-- Custom-->
+    <script src="js/custom.js"> </script>    
+        
+    
+    </body>
+    
+</html>

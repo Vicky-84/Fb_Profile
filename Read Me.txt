@@ -1,0 +1,21 @@
+###########################################################
+My Portfolio 
+###########################################################
+
+<!----index.html---->
+This is the HTML file contains all the codes required to run the portfolio on browser.
+
+
+<!-----css---->
+This folder contains all the css files which have been used.
+1.Custom.css ==> contains the css code to give style and look to the body of the portfolio
+2.styling.css ==> external css, downloaded from the external source, to give style to the bootstrp classes and Ids.
+
+<!---img--->
+This folder cotains all the images which have been used inside the portfolio.
+
+<!---js---->
+This folder contains the Javascript codes which have been used.
+1.custom.Js ==> contains Js code for the AJAX request.
+2.pageloader.Js ==> contains the basic Js code for the page-preloader image.
+

@@ -1,0 +1,352 @@
+
+/*---- Preloader Styles ----*/
+#page-loader{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    z-index: 99999;
+}
+
+#page-loader .page-loader-gif{
+    display: block;
+    width:64px;
+    height:64px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin:-32px 0 0 -32px;
+    background: url('../img/Preloader.gif') no-repeat;
+        
+}
+
+
+/*---- Preloader Styles End ----*/
+
+
+/* Style the tab */
+
+* {box-sizing: border-box}
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 400px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 400px;
+}
+
+/* End of Style the tab */
+
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.italic {
+  font-style: italic;
+}
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #111;
+  min-height: 600px;
+  padding: 0;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+.intro h1,
+.intro h2,
+.intro h3,
+.intro p {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+@media (min-width: 992px) {
+  .intro p {
+    font-size: 22px;
+  }
+}
+section {
+  padding: 100px 0;
+}
+@media (max-width: 991px) {
+  section {
+    padding: 60px 0;
+  }
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  z-index: 2;
+  opacity: 0.5;
+  filter: alpha(opacity=60);
+}
+.heading {
+  margin-bottom: 40px;
+}
+.heading:after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 1px;
+  margin: 20px 0 20px;
+  background: #555555;
+}
+.img-responsive {
+  margin: 0 auto;
+}
+.section-inverse {
+  color: #fff;
+}
+.section-inverse h1,
+.section-inverse h2,
+.section-inverse h3,
+.section-inverse h4,
+.section-inverse h5,
+.section-inverse h6 {
+  color: #fff;
+}
+.section-inverse .heading:after {
+  background: #fff;
+}
+.box {
+  margin-bottom: 30px;
+}
+.content {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  z-index: 10;
+}
+@media (max-width: 991px) {
+  .content {
+    position: relative;
+    padding: 80px 0;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+.skills .box {
+  margin-top: 20px;
+}
+.skills .icon {
+  font-size: 50px;
+}
+#map {
+  height: 600px;
+}
+.contact-form {
+  margin-bottom: 40px;
+}
+p.social {
+  text-align: center;
+  margin-top: 20px;
+}
+p.social a {
+  margin: 0 10px 0 0;
+  color: #fff;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  border-radius: 19px;
+  line-height: 38px;
+  font-size: 15px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  vertical-align: bottom;
+}
+p.social a i {
+  vertical-align: bottom;
+  line-height: 38px;
+}
+p.social a.facebook {
+  background-color: #ccc;
+}
+p.social a.gplus {
+  background-color: #333;
+}
+p.social a.twitter {
+  background-color: #aaa;
+}
+p.social a.instagram {
+  background-color: #999;
+}
+p.social a.email {
+  background-color: #666;
+}
+.copyright {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #eeeeee;
+  font-style: italic;
+}
+.copyright p.credit {
+  text-align: right;
+}
+.copyright p.credit a {
+  color: #eeeeee;
+}
+
+
+.wrapper {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+.border {
+    border:ridge;
+    border-width: medium;
+    background-color:#f1f1f1; 
+}
+
+
+
+@media (max-width: 991px) {
+  .copyright p.credit {
+    text-align: center !important;
+  }
+     .padding-small{
+        
+        padding-top: 200px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .copyright p.credit {
+    text-align: center !important;
+  }
+     .padding-small{
+        
+        padding-top: 600px;
+    }
+    
+}
+
+
+@media (min-width: 1200px) {
+  .copyright {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+    
+    .padding-small{
+        
+        padding-top: 600px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    
+    h1,.h1
+    {
+        font-size: 20px !important;
+        
+    }
+    
+    h3,.h3{
+        
+        font-size: 16px !important;
+    }
+    
+    .padding-small{
+        
+        padding-top: 200px;
+    }
+    
+    .tab button{
+        
+        font-size: 12px;    
+    }
+    
+    .tabcontent{
+        
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    
+    
+    .tab button{
+        
+        font-size: 9px;    
+    }
+    
+    .tabcontent{
+        
+        font-size: 9px;
+    }
+    
+    h3,.h3{
+        
+        font-size: 12px !important;
+    }
+    
+    
+}
