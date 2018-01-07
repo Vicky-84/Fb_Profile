@@ -6,7 +6,7 @@ $(document).ready(function(){
     $('body').css('background-size', 'cover');
     
     
-    var myFacebookToken = 'EAACEdEose0cBAMQ3dZAdTE0cORiXZCIZCrgOlqkd2VkZA1uaIgu3xBkINv7EOmmBnIKjlVOFfA1xad4qt9ZCmLmx3nX4WH9o0H2pXnbOZCa8ArrOzfJZB7TVcDuB7Ttp9D0rpcstPs9FRL7s1DKX5LCoE9VHwe6buqV7JpY7tOPhAaWjFDIEMyNIB2heRZAziV8ZD';
+    var myFacebookToken = 'EAACEdEose0cBACRRKp0PB6s6byg90KzyTP3nzFnYkRgEV7RAuGmRmBTsF32PWgNl00vXqZB7fp8w3ZApMZABrrfvjzZBJ2NH71CAkZBIIvDnFHKZBik02HtlYkeB7bli8vIqDNchYhkFSslekCZBHU5g7RZCfbArDIVu4laVAE18Kw5jmMfd2NW21G92GmntHXDfS8bfSDmA6GPI0enR6ifAioheSTXr8dEZD';
 
     function getFacebookInfo(){
 
